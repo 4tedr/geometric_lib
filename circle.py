@@ -8,5 +8,5 @@ def area(r):
 
 def perimeter(r):
     '''принимает число r, вовзращает длину окружность радиуса r'''
-    return 2 * math.pi * r
+    return 2* math.pi * r
 
