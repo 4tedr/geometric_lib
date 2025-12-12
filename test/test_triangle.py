@@ -16,7 +16,6 @@ class TriangleTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             area("height", "base")
         
-        # Тесты для perimeter (три аргумента)
         with self.assertRaises(TypeError):
             perimeter("3", 4, 5)
         with self.assertRaises(TypeError):
