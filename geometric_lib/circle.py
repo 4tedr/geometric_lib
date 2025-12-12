@@ -14,6 +14,10 @@ def area(r):
     Пример:
         area(4) = math.pi * 4 * 4
     '''
+    if r < 0:
+        raise ValueError
+    if not isinstance(r, (int, float)):
+        raise TypeError
     return math.pi * r * r
 
 
@@ -30,5 +34,8 @@ def perimeter(r):
     Пример:
         perimeter(3) = 2 * math.pi * 3
     '''
+    if r < 0:
+        raise ValueError
+    if not isinstance(r, (int, float)):
+        raise TypeError
     return 2 * math.pi * r
-
